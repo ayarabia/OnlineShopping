@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/toolkit/static/css/main.1241f2ce.css",
-    "main.js": "/toolkit/static/js/main.6fafd533.js",
-    "static/js/787.67f8ae8e.chunk.js": "/toolkit/static/js/787.67f8ae8e.chunk.js",
-    "index.html": "/toolkit/index.html",
-    "main.1241f2ce.css.map": "/toolkit/static/css/main.1241f2ce.css.map",
-    "main.6fafd533.js.map": "/toolkit/static/js/main.6fafd533.js.map",
-    "787.67f8ae8e.chunk.js.map": "/toolkit/static/js/787.67f8ae8e.chunk.js.map"
+    "main.css": "/OnlineShopping/static/css/main.1241f2ce.css",
+    "main.js": "/OnlineShopping/static/js/main.dc172ac0.js",
+    "static/js/787.67f8ae8e.chunk.js": "/OnlineShopping/static/js/787.67f8ae8e.chunk.js",
+    "index.html": "/OnlineShopping/index.html",
+    "main.1241f2ce.css.map": "/OnlineShopping/static/css/main.1241f2ce.css.map",
+    "main.dc172ac0.js.map": "/OnlineShopping/static/js/main.dc172ac0.js.map",
+    "787.67f8ae8e.chunk.js.map": "/OnlineShopping/static/js/787.67f8ae8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1241f2ce.css",
-    "static/js/main.6fafd533.js"
+    "static/js/main.dc172ac0.js"
   ]
 }
