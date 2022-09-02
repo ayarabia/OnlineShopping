@@ -1,5 +1,6 @@
-{"homepage":"https://myusername.github.io/onlineShopping",
-"name":"toolkit","version":"0.1.0","private":true,
+{"homepage":"https://myusername.github.io/toolkit",
+"name":"toolkit",
+"version":"0.1.0","private":true,
 "dependencies":{"@emotion/react":"^11.9.3",
 "@emotion/styled":"^11.9.3","@mui/icons-material":"^5.8.4",
 "@mui/material":"^5.8.4","@reduxjs/toolkit":"^1.8.2",
