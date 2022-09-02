@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Component/Home";
+import NavBar from "./Component/Navbar";
+import NotFound from "./Component/NotFound";
+import Cart from "./Component/Cart";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ToastContainer />
+      <NavBar />
+      <div className="content-container">
+        <Routes>
+          <Route path="/cart" element={<Cart/>} />
+          <Route path="/not-found" element={<NotFound/>} />
+          <Route path="/home" exact element={<Home/>} />
+          <Route path="/" exact element={<Home/>} />
+          <Route path="*" exact element={<NotFound/>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  </div>
+
   );
 }
 
 export default App;
+//     <div className="App">
+//   <Button variant="text">Text</Button>
+// <Button variant="contained">Contained</Button>
+//     </div>
+{/* <>
+<Button variant="outlined">Outlined</Button>
+<Product></Product>
+<Counter></Counter>
+</> */}
