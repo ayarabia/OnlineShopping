@@ -15,6 +15,7 @@ function App() {
       <NavBar />
       <div className="content-container">
         <Routes>
+        <Route path="/OnlineShopping" element={<Home/>} /> 
           <Route path="/cart" element={<Cart/>} />
           <Route path="/not-found" element={<NotFound/>} />
           <Route path="/home" exact element={<Home/>} />
